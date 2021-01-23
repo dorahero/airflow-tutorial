@@ -5,3 +5,4 @@ env
 webserver*
 *.cfg
 logs/*
+*.pid
