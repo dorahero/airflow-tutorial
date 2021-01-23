@@ -1,5 +1,5 @@
 # Airflow-DAGS(airflow version: 2.0.0)
-![](./airflow.png)
+![](./airflow.png =250x250)
 
 ### Requirements
 - apache-airflow==2.0.0
