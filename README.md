@@ -1,5 +1,4 @@
-# Airflow-DAGS(airflow version: 2.0.0)
-<img src="./airflow.png" width="500" height="500" />
+# Airflow(airflow version: 2.0.0)
 
 ### Requirements
 - apache-airflow==2.0.0
