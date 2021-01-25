@@ -7,7 +7,7 @@ import pendulum
 local_tz = pendulum.timezone("Asia/Taipei")
 ARGS = {
     'owner': 'Airflow',
-    'start_date': datetime(2021, 1, 25, tzinfo=local_tz),
+    'start_date': days_ago(1),
     'retries': 1, 
     'retry_delay': timedelta(minutes=5)
 }
@@ -15,7 +15,7 @@ ARGS = {
 dag = DAG(
     dag_id='carrafour_docker',
     default_args=ARGS,
-    schedule_interval='45 17 * * *',
+    schedule_interval='0 0 * * *',
     tags=['crawl', 'carrefour', 'docker']
 )
 
