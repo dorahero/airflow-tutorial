@@ -8,7 +8,8 @@ local_tz = pendulum.timezone("Asia/Taipei")
 
 ARGS = {
     'owner': 'Airflow',
-    'start_date': datetime(2021, 1, 25, tzinfo=local_tz),
+    'depends_on_past': False,
+    'start_date': datetime(2021, 1, 26, tzinfo=local_tz),
     'retries': 1, 
     'retry_delay': timedelta(minutes=5)
 }

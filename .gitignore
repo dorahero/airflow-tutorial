@@ -6,3 +6,5 @@ webserver*
 *.cfg
 logs/*
 *.pid
+airflow-scheduler*
+airflow-webserver*
