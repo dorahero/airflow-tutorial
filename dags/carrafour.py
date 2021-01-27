@@ -7,7 +7,7 @@ import pendulum
 local_tz = pendulum.timezone("Asia/Taipei")
 ARGS = {
     'owner': 'Airflow',
-    'depends_on_past': False,
+    # 'depends_on_past': False,
     'start_date': days_ago(1),
     'retries': 1, 
     'retry_delay': timedelta(minutes=5)
